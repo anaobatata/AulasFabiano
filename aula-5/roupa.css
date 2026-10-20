@@ -1,0 +1,48 @@
+*{margin: 0px; padding: 0px; }
+:root{
+  --verde: #128540;
+  --verde-escuro: #0d6b32;
+  --verde-claro: #69da92;
+  --cinza-borda: #d9d9d9;
+  --cinza-texto: #555;
+  --texto: #1a1a1a;
+  --fonte: "Inter", system-ui, Arial, sans-serif;
+  --fonte-titulo: "Poppins", "Segoe UI", Arial, sans-serif;
+}
+
+.centro{
+align-items: center;
+justify-content: center;
+margin-left: 20vh;
+}
+.topo{    
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    min-width: 100%;
+    border-bottom: 3px solid var(--verde);
+}
+.topo-d{
+    width: 200px;
+    display: flex;
+    flex-direction: colun;
+    justify-content: space-evenly;
+    margin-left: 60%;
+
+}
+.card-topo{
+    border-radius: 5px;
+    border: 3px solid var(--verde);
+}
+
+.marked{
+    color: var(--verde-escuro);
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    height: 100vh;
+}
